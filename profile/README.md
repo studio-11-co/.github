@@ -10,7 +10,7 @@ A verifier with the manifest, the dataset, and the model independently recompute
 - Maps to **EU AI Act** Articles 12/15/18/50, NIST AI RMF, ISO/IEC 42001
 
 ### Proof, not promises
-- **4 reference implementations** (Python, JavaScript, Go, Rust) — byte-equivalent across **20 conformance vectors**
+- **4 reference implementations** (Python, JavaScript, Go, Rust) — byte-equivalent across **21 conformance vectors** (13 v0.1 stable + 8 v0.2)
 - MIT-licensed code · CC BY 4.0 spec · JSON Schema in SchemaStore
 
 ### Repositories
