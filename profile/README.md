@@ -11,7 +11,7 @@
 
 **PRML** is an open format for writing down, before a test runs, what the test has to achieve: metric, comparator, threshold, dataset hash, seed. A verifier recomputes the SHA-256 digest from the manifest's canonical bytes and returns **PASS**, **FAIL** or **TAMPERED**. The public registry adds Ed25519-signed receipts, independent RFC 3161 timestamps and a Rekor transparency-log entry. A receipt shows that the bar existed no later than the timestamp and whether a later copy is byte-identical to it. It never shows that a result is true.
 
-**Live example:** [a pre-registered robustness evaluation of the open-source SynthID-Text watermark](https://falsify.dev/receipts/synthid-text-2026-10/), with six pass bars timestamped before the main run.
+**Live example:** [a pre-registered robustness evaluation of the open-source SynthID-Text watermark](https://falsify.dev/receipts/synthid-text-2026-10/), with six pass bars timestamped before the main run and the results reported against them: 8 of 12 outcomes met.
 
 - **Spec:** [spec.falsify.dev/v0.1](https://spec.falsify.dev/v0.1) · [Community Specification License 1.0](https://github.com/studio-11-co/falsify/blob/main/spec/LICENSE.md) · [Zenodo DOI](https://doi.org/10.5281/zenodo.20177839)
 - **Site:** [falsify.dev](https://falsify.dev) · **Registry:** [registry.falsify.dev](https://registry.falsify.dev)
